@@ -1,0 +1,105 @@
+.header-container {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-container {
+  padding: 2rem;
+}
+
+.main-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.score-section {
+  flex: 1;
+}
+
+.score-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-header h2 {
+  font-size: 1.5rem;
+}
+
+.refresh-btn {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.scores-container {
+  margin-top: 1rem;
+}
+
+.scores-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.scores-container li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.submit-section {
+  flex: 1;
+  max-width: 400px;
+}
+
+.submit-section h3 {
+  font-size: 1.5rem;
+}
+
+.input-box {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .main-flex {
+    flex-direction: column;
+  }
+
+  .score-section,
+  .submit-section {
+    flex: none;
+    width: 100%;
+  }
+}
