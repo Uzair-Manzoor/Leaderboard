@@ -14,27 +14,27 @@
       <div id="menu-btn" class="menu-icon fas fa-bars"></div>
     </nav>
   </header>
-
   <main class="main-container home">
     <div class="main-flex">
       <section class="score-section">
         <div class="score-header">
           <h2>Recent scores</h2>
-        <button type="submit" 
+        <button type="button" 
           id="refresh-button" 
           class="refresh-btn">
           Refresh
         </button>
         </div>
         <div class="scores-container">
-          <ul>
+          <ul id="scores">
           </ul>
         </div>
       </section>
       <section class="submit-section">
-        <form method="post">
+        <form id="form" method="post">
           <h3>Add your score</h3>
         <input type="text"
+          id="user"
           name="player" 
           required
           maxlength="50"
@@ -42,6 +42,7 @@
           class="input-box"
         />
         <input type="number"
+          id="score"
           name="score"
           min="1"
           maxlength="7"
