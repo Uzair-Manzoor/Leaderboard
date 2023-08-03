@@ -28,7 +28,7 @@
   - [🙏 Acknowledgments](#acknowledgments)
   - [📝 License](#license)
 
-# 📖 About the Project <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
 **Leaderboard** aims to integrate the Leaderboard API service into an application, providing functionality for creating new games, saving scores, and retrieving scores for a game.
 
