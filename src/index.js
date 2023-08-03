@@ -1,5 +1,6 @@
 import './index.css';
 import { displayScores, addScoreToList } from './app.js';
+import API_URL from './api.js';
 
 const formElement = document.getElementById('form');
 const nameInput = document.getElementById('user');
@@ -15,7 +16,7 @@ const addScore = async (event) => {
 };
 
 const fetchAndDisplayScores = async () => {
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/QmA8PefwGdv5BMnpfXEQ/scores/');
+  const response = await fetch(API_URL);
   const data = await response.json();
   displayScores(data.result);
 };

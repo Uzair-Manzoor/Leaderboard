@@ -1,7 +1,9 @@
+import API_URL from './api.js';
+
 const scoreListElement = document.getElementById('scores');
 
 const addScoreToList = async (score) => {
-  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/QmA8PefwGdv5BMnpfXEQ/scores/', {
+  await fetch(API_URL, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
