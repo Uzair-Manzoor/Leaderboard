@@ -13,7 +13,6 @@
   - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [🔑 Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
   - [💻 Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -29,7 +28,7 @@
   - [🙏 Acknowledgments](#acknowledgments)
   - [📝 License](#license)
 
-# 📖 About the Project <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
 **Leaderboard** aims to integrate the Leaderboard API service into an application, providing functionality for creating new games, saving scores, and retrieving scores for a game.
 
@@ -53,14 +52,6 @@
 
 - ✨ **Demo of Linters**: Showcase the usage of HTML, CSS, and JavaScript linters to ensure code quality.
 - 🏅 **Demo of Leaderboard**: Implement a leaderboard feature to display and track scores or rankings.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [🔗 Live Demo Link](Coming Soon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
