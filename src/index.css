@@ -1,7 +1,34 @@
+body {
+  background-color: #e5e5e5;
+  animation: colorChange 10s infinite alternate;
+}
+
 .header-container {
   background-color: #333;
   color: #fff;
   padding: 1rem;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #a5fcff;
+  }
+
+  25% {
+    background-color: #c4fff2;
+  }
+
+  50% {
+    background-color: #c8f8f2;
+  }
+
+  75% {
+    background-color: #a0ecfff5;
+  }
+
+  100% {
+    background-color: #9cd4ff;
+  }
 }
 
 .header-nav {
